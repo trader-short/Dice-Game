@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Game</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- link to bootstap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
+    integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+    <!-- link to external css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <h1 id="heading">Let's Play</h1>
+    <h2 id="score">0 - 0</h2>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 id="player1">Player 1</h3>
+          <img id="img1" src="images/dice6.png" alt="img-dice">
+        </div>
+        <div class="col-lg-4">
+          <h3 id="player2">Player 2</h3>
+          <img id="img2" src="images/dice6.png" alt="img-dice">
+        </div>
+      </div>
+
+    </div>
+    <button type="button" class="btn btn-outline-light btn-lg" onclick="myFunction()">Roll the dice!</button>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
